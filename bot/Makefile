@@ -1,3 +1,7 @@
+all:
+	python -m rasa_nlu.train -c nlu_config.yml --data data/intents/geral.md -o models --fixed_model_name nlu --project current --verbose
+	python -m rasa_core.train -d domain.yml -s data/stories/geral.md -o models/dialogue --epochs 190
+	python -m rasa_core.run -d models/dialogue/ -u models/current/nlu/ --debug --enable_api 
 train:
 	python -m rasa_nlu.train -c nlu_config.yml --data data/intents/geral.md -o models --fixed_model_name nlu --project current --verbose
 	python -m rasa_core.train -d domain.yml -s data/stories/geral.md -o models/dialogue --epochs 190

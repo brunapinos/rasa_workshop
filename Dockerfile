@@ -6,6 +6,8 @@ ADD ./requirements.txt /tmp
 
 RUN pip install -r /tmp/requirements.txt
 
-WORKDIR bot/
+ADD ./bot /bot/
 
-CMD sleep infinity
+WORKDIR /bot/
+
+CMD make
