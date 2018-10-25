@@ -1,4 +1,4 @@
-## path_lei_rouanet.1
+## path_cumprimentar
 * cumprimentar
   - utter_cumprimentar
 * despedir
