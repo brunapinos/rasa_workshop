@@ -1,6 +1,11 @@
 intents:
   - cumprimentar
+  - responder
   - despedir
+
+entities:
+ - number
+
 
 templates:
   utter_default:
@@ -33,8 +38,18 @@ templates:
         Quando surgir alguma dúvida, volte aqui!
 
         Até mais!
+        
+  utter_responder_one:
+    - text: |
+        Xablau
+
+  utter_responder_two:
+    - text: |
+        Shablaw
 
 actions:
   - utter_default
+  - utter_responder_one
+  - utter_responder_two
   - utter_cumprimentar
   - utter_despedir

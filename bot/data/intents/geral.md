@@ -20,7 +20,6 @@
 - pode me tirar uma dúvida?
 
 <!-- Despedir -->
-
 ##intent:despedir
 - Tchau obrigada
 - até logo
@@ -30,3 +29,7 @@
 - até breve
 - falou, valeu
 - flw vlw
+
+##intent:responder
+- me fale sobre [1](number)
+- me fale sobre [2](number)
