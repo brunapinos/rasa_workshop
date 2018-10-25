@@ -1,6 +1,6 @@
 import requests
 
-asks = ['hi', 'good', 'hi', 'bad', 'yes', 'hi', 'bad', 'no']
+asks = ['oi', 'tchau']
 answers = []
 answers_data = []
 
