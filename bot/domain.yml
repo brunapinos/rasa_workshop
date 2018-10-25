@@ -10,19 +10,7 @@ templates:
         Você pode perguntar de novo de outro jeito?
   utter_cumprimentar:
     - text: |
-        Olá, meu  nome é Taís, sou assistente virtual do MinC
-
-         Estou aqui para te ajudar a sanar dúvidas sobre a lei Rouanet
-
-    - text: |
-        Oi, eu sou a Taís, assistente virtual do MinC
-
-         Estou aqui para te ajudar a tirar dúvidas sobre a lei Rouanet
-
-    - text: |
-        Oi, sou assistente virtual do MinC, me chamo Taís
-
-         Estou aqui para te ajudar a esclarecer dúvidas sobre a lei Rouanet
+       Oii! Sobre o que você quer saber?
 
   utter_despedir:
     - text: |
