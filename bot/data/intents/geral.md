@@ -1,15 +1,3 @@
-## intent:out_of_scope
-- onde está o diheiro
-- onde está o pablo vittar
-- vagabundos
-- bandidos
-- corrupção
-- deus é fiel
-- qual é o seu sexo
-- você esta aonde?
-- voce torce pra qual time
-- como esta o tempo
-
 <!-- Saudação -->
 ## intent:cumprimentar
 - oi
